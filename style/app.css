@@ -103,6 +103,15 @@
   width: 255px;
   height: 54px;
 }
+.header__stamp {
+  position: relative;
+  width: 100%;
+}
+.header__cup {
+  position: absolute;
+  right: -6px;
+  top: -181px;
+}
 
 @media (max-width: 1440px) {
   .header {
@@ -160,6 +169,10 @@
     height: 54px;
     margin-right: -11px;
     margin-left: -23px;
+  }
+  .header__cup {
+    right: 9px;
+    top: -160px;
   }
 }
 @media (max-width: 1230px) {
@@ -224,6 +237,10 @@
     margin-right: 0px;
     margin-left: 0px;
   }
+  .header__cup {
+    right: 34px;
+    top: -199px;
+  }
 }
 @media (max-width: 800px) {
   .header {
@@ -245,6 +262,20 @@
   .header__o {
     height: 7px;
     width: 7px;
+  }
+  .header__cup {
+    height: 65px;
+    width: 56px;
+    right: 38px;
+    top: -184px;
+  }
+}
+@media (max-width: 464px) {
+  .header__cup {
+    height: 57px;
+    width: 48px;
+    right: 188px;
+    top: -300px;
   }
 }
 .about {
